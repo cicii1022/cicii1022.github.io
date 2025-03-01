@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.cicii.cn/posts/28677a82/</loc>
+    
+    <lastmod>2025-03-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.cicii.cn/posts/ccdb52ca/</loc>
     
     <lastmod>2024-12-20</lastmod>
@@ -31,7 +40,7 @@
 
   <url>
     <loc>https://blog.cicii.cn/</loc>
-    <lastmod>2025-01-15</lastmod>
+    <lastmod>2025-03-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
