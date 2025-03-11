@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/posts/4a17b156H/</url>
+    <content><![CDATA[<p>I’m cicii.</p>
+]]></content>
+  </entry>
+  <entry>
     <title>Markdown 入门</title>
     <url>/posts/28677a82/</url>
     <content><![CDATA[<p>[TOC]</p>
@@ -69,96 +75,6 @@
 
 <h2 id="Emoji表情"><a href="#Emoji表情" class="headerlink" title="Emoji表情"></a>Emoji表情</h2><p>直接从<a href="https://emojipedia.org/">Emojipedia</a>复制（硬编码方式）<br>🎉🎉🎉</p>
 <h2 id="LaTeX"><a href="#LaTeX" class="headerlink" title="$\LaTeX$"></a>$\LaTeX$</h2><p>LaTeX标准请参考<a href="https://latex-project.org/">LaTeX - A document preparation system</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/posts/4a17b156H/</url>
-    <content><![CDATA[<p>I’m cicii.</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>数据库概论</title>
-    <url>/posts/bef137fa/</url>
-    <content><![CDATA[<p><strong>推荐教材</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">数据库系统概论 第5版</span><br><span class="line">王珊 / 萨师煊 高等教育出版社</span><br><span class="line"></span><br><span class="line">数据库系统概念 原书第6版</span><br><span class="line">Abraham Silberschatz / Henry F. Korth / S. Sudarshan 机械工业出版社</span><br></pre></td></tr></table></figure>
-
-<h1 id="数据库概论"><a href="#数据库概论" class="headerlink" title="数据库概论"></a>数据库概论</h1><h2 id="绪论"><a href="#绪论" class="headerlink" title="绪论"></a>绪论</h2><h3 id="数据"><a href="#数据" class="headerlink" title="数据"></a>数据</h3><h4 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h4><p>Data<br>数据是描述事物的符号记录，是数据库中存储的基本对象。数据与其语义是密不可分的。</p>
-<h5 id="表现形式"><a href="#表现形式" class="headerlink" title="表现形式"></a>表现形式</h5><p>其表现形式可以是数字(number)、文字(text)、图表(graph)、图像(image)、音频(audio)、视频(video)等。[文图声像]</p>
-<h3 id="数据模型"><a href="#数据模型" class="headerlink" title="数据模型"></a>数据模型</h3><h4 id="概念-1"><a href="#概念-1" class="headerlink" title="概念"></a>概念</h4><p>数据模型是对现实世界数据特征的模拟和抽象表达，是模型化数据和信息的工具，是数据库系统的核心和基础。</p>
-<h4 id="组成三要素"><a href="#组成三要素" class="headerlink" title="组成三要素"></a>组成三要素</h4><h5 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h5><p>是对系统静态特性的描述，描述数据库的组成对象以及对象之间的联系。</p>
-<h5 id="数据操作"><a href="#数据操作" class="headerlink" title="数据操作"></a>数据操作</h5><p>是对系统动态特性的描述，描述在相应的数据结构上的操作类型和操作方式。<br>数据操作主要包括对数据库的检索和更新两大类操作，其中更新操作又包括插入、删除和修改等。数据模型必须定义这些操作的确切含义、操作符号、操作规则（如优先级）以及实现操作的语言。</p>
-<h5 id="数据约束"><a href="#数据约束" class="headerlink" title="数据约束"></a>数据约束</h5><p>既刻画数据静态特征，也表示数据动态行为规则，描述数据结构内数据间的语法和语义关联、它们之间的制约和依存关系，以及数据动态变化规则，以保证数据的正确、有效和相容。数据约束包括数据完整性约束、数据安全性约束以及并发控制性约束。</p>
-<h4 id="二分类"><a href="#二分类" class="headerlink" title="二分类"></a>二分类</h4><h5 id="概念层数据模型"><a href="#概念层数据模型" class="headerlink" title="概念层数据模型"></a>概念层数据模型</h5><h6 id="概念-2"><a href="#概念-2" class="headerlink" title="概念"></a>概念</h6><p>也称信息模型，数据抽象的最高层，是以用户视角对数据建模，用于数据库设计。</p>
-<h6 id="主要表示方法"><a href="#主要表示方法" class="headerlink" title="主要表示方法"></a>主要表示方法</h6><p>实体-联系图，也称E-R图，用于描述现实世界中实体及其属性，以及实体之间联系。<br>实体用矩形表示，矩形框内写明实体的名称。<br>属性用椭圆形表示，描述实体的具体特征。<br>联系用菱形表示，描述了实体之间的关系。<br>这些关系可以是一对一、一对多或多对多等。</p>
-<h5 id="组织层数据模型"><a href="#组织层数据模型" class="headerlink" title="组织层数据模型"></a>组织层数据模型</h5><p>是以计算机视角对数据建模，用于数据库管理系统的实现。</p>
-<h6 id="逻辑层数据模型"><a href="#逻辑层数据模型" class="headerlink" title="逻辑层数据模型"></a>逻辑层数据模型</h6><p>数据抽象的中间层，是设计数据库系统的核心。<br>包括层次模型、网状模型、关系模型、面向对象模型、对象关系数据模型、半结构化数据模型等。<br>面向对象型数据库OODBS中的基本结构是对象而不是记录。</p>
-<h6 id="物理层数据模型"><a href="#物理层数据模型" class="headerlink" title="物理层数据模型"></a>物理层数据模型</h6><p>数据抽象的最底层，描述数据在存储介质上的组织结构，确定数据的物理存储结构，数据存取路径。</p>
-<h3 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h3><h4 id="概念-3"><a href="#概念-3" class="headerlink" title="概念"></a>概念</h4><p>DataBase，简称DB<br>    数据库顾名思义是存储数据的仓库。<br>    严格地说，数据库是长期存储在计算机中的、有组织的、可共享的大量数据的集合。</p>
-<h4 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">关系型数据库</span><br><span class="line">RD    (Relational Database)</span><br><span class="line">非关系型数据库</span><br><span class="line">NRD   (Non-Relational Database)</span><br><span class="line">NoSQL (Not Only SQL)				译为&quot;不仅仅是SQL&quot;</span><br></pre></td></tr></table></figure>
-
-<h3 id="数据库管理系统"><a href="#数据库管理系统" class="headerlink" title="数据库管理系统"></a>数据库管理系统</h3><h4 id="概念-4"><a href="#概念-4" class="headerlink" title="概念"></a>概念</h4><p>DataBase Management System，简称DBMS<br>    数据库管理系统是一种操纵和管理数据库的大型软件，用于建立、使用和维护数据库。</p>
-<h4 id="分类-1"><a href="#分类-1" class="headerlink" title="分类"></a>分类</h4><pre><code>关系型数据库管理系统
-RDBMS		(Relational Database Management System)
-非关系型数据库管理系统
-NRDBMS		(Non-Relational Database Management System)
-NoSQL DBMS	(Not Only SQL Database Management System)
-
-常见的关系型数据库管理系统有
-MySQL、Oracle、SQL Server、PostgreSQL等
-常见的非关系型数据库管理系统有
-MongoDB(文档型)、Redis(键值型)、Cassandra(列存储型)、Neo4j(图型)等
-</code></pre>
-<h4 id="排行榜"><a href="#排行榜" class="headerlink" title="排行榜"></a>排行榜</h4><p><a href="https://db-engines.com/en/ranking">DB-Engines Ranking</a></p>
-<h3 id="结构化查询语言"><a href="#结构化查询语言" class="headerlink" title="结构化查询语言"></a>结构化查询语言</h3><h4 id="概念-5"><a href="#概念-5" class="headerlink" title="概念"></a>概念</h4><p>Structured Query Language，简称SQL<br>    结构化查询语言是用于管理关系型数据库的高级的非过程化编程语言，允许用户与数据库进行交互，执行各种数据操作。几乎所有的关系型数据库管理系统都支持SQL。</p>
-<h4 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h4><pre><code>数据查询(Data Query)
-数据定义(Data Definition)
-数据操纵(Data Manipulation)
-数据控制(Data Control)
-事务控制(Transaction Control)
-······
-</code></pre>
-<h4 id="分类-2"><a href="#分类-2" class="headerlink" title="分类"></a>分类</h4><h5 id="数据查询语言"><a href="#数据查询语言" class="headerlink" title="数据查询语言"></a>数据查询语言</h5><p>Data Query Language，简称DQL<br>    数据查询语言用于从数据库中检索数据。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">SELECT</span><br><span class="line">*用于从数据库的一个或多个表中检索数据</span><br></pre></td></tr></table></figure>
-<h5 id="数据定义语言"><a href="#数据定义语言" class="headerlink" title="数据定义语言"></a>数据定义语言</h5><p>Data Definition Language，简称DDL<br>    数据定义语言用于创建、修改和删除数据库对象的结构，并不操作数据库对象中的实际数据。<br><strong>数据库对象</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">表Table</span><br><span class="line">视图View</span><br><span class="line">索引Index</span><br><span class="line">存储过程Stored Procedure</span><br><span class="line">触发器Trigger</span><br><span class="line">······</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">CREATE</span><br><span class="line">*用于创建数据库对象</span><br><span class="line">ALTER</span><br><span class="line">*用于修改已有数据库对象</span><br><span class="line">DROP</span><br><span class="line">*用于删除数据库对象</span><br><span class="line">TRUNCATE</span><br><span class="line">只用于删除表中的所有数据，但保留表结构</span><br><span class="line">相比于DELETE操作，TRUNCATE执行速度更快，且不能通过回滚操作来恢复删除的数据</span><br></pre></td></tr></table></figure>
-<h5 id="数据操纵语言"><a href="#数据操纵语言" class="headerlink" title="数据操纵语言"></a>数据操纵语言</h5><p>Data Manipulation Language，简称DML<br>    数据操纵语言用于插入、更新和删除数据库中的数据。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">INSERT</span><br><span class="line">*用于向表中插入新数据</span><br><span class="line">UPDATE</span><br><span class="line">*用于修改表中的已有数据</span><br><span class="line">DELETE</span><br><span class="line">*用于从表中删除数据</span><br></pre></td></tr></table></figure>
-<h5 id="数据控制语言"><a href="#数据控制语言" class="headerlink" title="数据控制语言"></a>数据控制语言</h5><p>Data Control Language，简称DCL<br>    数据控制语言用于管理用户或角色对数据库对象的访问权限。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">GRANT</span><br><span class="line">*用于授予用户或角色对数据库对象的访问权限</span><br><span class="line">REVOKE</span><br><span class="line">*用于撤销用户或角色对数据库对象的访问权限</span><br></pre></td></tr></table></figure>
-<h5 id="事务控制语言"><a href="#事务控制语言" class="headerlink" title="事务控制语言"></a>事务控制语言</h5><p>Transaction Control Language，简称TCL<br>    事务控制语言用于管理数据库中事务的提交和回滚。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">BEGIN TRANSACTION</span><br><span class="line">用于明确地标记事务的开始</span><br><span class="line">COMMIT</span><br><span class="line">*用于将事务中的所有操作永久性地应用到数据库，并结束当前的事务</span><br><span class="line">ROLLBACK</span><br><span class="line">*用于撤销事务中的所有已执行的操作，并将数据库恢复到事务开始之前的状态</span><br><span class="line">SAVEPOINT</span><br><span class="line">用于设置一个临时的标记点，以便在后续可以回滚到该点，而不是回滚整个事务</span><br><span class="line">RELEASE SAVEPOINT</span><br><span class="line">用于释放(删除)先前在当前事务中定义的保存点</span><br></pre></td></tr></table></figure>
-
-<h3 id="数据库系统"><a href="#数据库系统" class="headerlink" title="数据库系统"></a>数据库系统</h3><h4 id="概念-6"><a href="#概念-6" class="headerlink" title="概念"></a>概念</h4><p>Database System，简称DBS<br>    数据库系统是由硬件、软件、数据库、使用人员组成的。</p>
-<h4 id="四特点"><a href="#四特点" class="headerlink" title="四特点"></a>四特点</h4><p>数据结构化<br>数据共享性高、冗余度低且易扩充<br>数据独立性高<br>数据由数据库管理系统统一管理和控制</p>
-<h4 id="数据管理技术发展经历三阶段"><a href="#数据管理技术发展经历三阶段" class="headerlink" title="数据管理技术发展经历三阶段"></a>数据管理技术发展经历三阶段</h4><p>人工管理阶段<br>文件系统阶段<br>数据库系统阶段</p>
-<h4 id="二体系结构"><a href="#二体系结构" class="headerlink" title="二体系结构"></a>二体系结构</h4><h5 id="内部体系结构"><a href="#内部体系结构" class="headerlink" title="内部体系结构"></a>内部体系结构</h5><h6 id="三级模式结构"><a href="#三级模式结构" class="headerlink" title="三级模式结构"></a>三级模式结构</h6><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">外模式（也称为子模式或用户模式） 用户级   三级模式结构的最外层</span><br><span class="line">是数据库用户（包括应用程序员和最终用户）能够看见和使用的局部数据的逻辑结构和特征的描述，是数据库用户的数据视图，是数据库概念模式的子集。一个数据库可以有多个外模式。</span><br><span class="line"></span><br><span class="line">概念模式（也称为逻辑模式）      概念级   三级模式结构的中间层</span><br><span class="line">描述数据库中全体数据的逻辑结构和特征，是所有用户的公共数据视图。</span><br><span class="line"></span><br><span class="line">内模式（也称为存储模式）        物理级   三级模式结构的物理层，并不是最底层的物理层</span><br><span class="line">描述了数据的物理结构和存储方式，是数据在数据库内部的表示形式或底层描述。一个数据库只有一个内模式。</span><br></pre></td></tr></table></figure>
-
-<h6 id="二级映像"><a href="#二级映像" class="headerlink" title="二级映像"></a>二级映像</h6><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">外模式/模式的映像：实现外模式到模式的相互转换。保证了数据的逻辑独立性</span><br><span class="line">模式/内模式的映像：实现模式到内模式的相互转换。保证了数据的物理独立性</span><br></pre></td></tr></table></figure>
-
-<h5 id="外部体系结构"><a href="#外部体系结构" class="headerlink" title="外部体系结构"></a>外部体系结构</h5><h6 id="单用户结构"><a href="#单用户结构" class="headerlink" title="单用户结构"></a>单用户结构</h6><p>整个数据库系统都安装在一台计算机上，并由一个用户独占使用，不同机器之间不能共享数据。</p>
-<h6 id="主从式结构（也称为集中式结构）"><a href="#主从式结构（也称为集中式结构）" class="headerlink" title="主从式结构（也称为集中式结构）"></a>主从式结构（也称为集中式结构）</h6><p>一个主机带多个终端用户。</p>
-<h6 id="分布式结构"><a href="#分布式结构" class="headerlink" title="分布式结构"></a>分布式结构</h6><p>数据库中的数据在逻辑上是一个整体，但物理地分布在计算机网络的不同结点上。</p>
-<h6 id="客户机-服务器（C-S）结构"><a href="#客户机-服务器（C-S）结构" class="headerlink" title="客户机&#x2F;服务器（C&#x2F;S）结构"></a>客户机&#x2F;服务器（C&#x2F;S）结构</h6><h6 id="浏览器-服务器（B-S）结构"><a href="#浏览器-服务器（B-S）结构" class="headerlink" title="浏览器&#x2F;服务器（B&#x2F;S）结构"></a>浏览器&#x2F;服务器（B&#x2F;S）结构</h6><h2 id="关系数据库"><a href="#关系数据库" class="headerlink" title="关系数据库"></a>关系数据库</h2><h3 id="关系数据模型"><a href="#关系数据模型" class="headerlink" title="关系数据模型"></a>关系数据模型</h3><h4 id="概念-7"><a href="#概念-7" class="headerlink" title="概念"></a>概念</h4><p>在关系结构的数据库中用二维表格的形式表示实体以及实体之间的联系的模型</p>
-<h4 id="关系数据结构"><a href="#关系数据结构" class="headerlink" title="关系数据结构"></a>关系数据结构</h4><h5 id="实体"><a href="#实体" class="headerlink" title="实体"></a>实体</h5><p>实体是客观存在且具有公共性质的可相互区别的现实世界对象的集合。</p>
-<h5 id="属性"><a href="#属性" class="headerlink" title="属性"></a>属性</h5><p>属性是实体所具有的某一特征或性质。</p>
-<h5 id="域"><a href="#域" class="headerlink" title="域"></a>域</h5><p>域是一组具有相同数据类型的值的集合，是属性的取值范围。</p>
-<h5 id="元组"><a href="#元组" class="headerlink" title="元组"></a>元组</h5><p>元组用于表示关系中的单行记录或实体。</p>
-<h5 id="笛卡尔积"><a href="#笛卡尔积" class="headerlink" title="笛卡尔积"></a>笛卡尔积</h5><p>笛卡尔积可表示为一个二维表。表中的每行对应一个元组，表中的每列对应一个域。</p>
-<h5 id="关系"><a href="#关系" class="headerlink" title="关系"></a>关系</h5><p>关系是由多个域组成的笛卡尔积的有限子集。<br>笛卡尔积不满足交换律,<br>(d1,d2,···,dn)!&#x3D;(d2,d1,···,dn)<br>但关系满足交换律。<br>(d1,d2,···,dn)&#x3D;(d2,d1,···,dn)</p>
-<h5 id="候选码"><a href="#候选码" class="headerlink" title="候选码"></a>候选码</h5><p>关系中的某个属性组的值能够唯一地标识一个元组，而其子集不能，该属性组被称为候选码。一个关系可以有多个候选码。</p>
-<h5 id="主码（也称为主键）"><a href="#主码（也称为主键）" class="headerlink" title="主码（也称为主键）"></a>主码（也称为主键）</h5><p>主码由候选码中选定，每个关系有且仅有一个主码。       </p>
-<h5 id="主属性"><a href="#主属性" class="headerlink" title="主属性"></a>主属性</h5><p>候选码中的属性被称为主属性。</p>
-<h5 id="非主属性（也称为非码属性）"><a href="#非主属性（也称为非码属性）" class="headerlink" title="非主属性（也称为非码属性）"></a>非主属性（也称为非码属性）</h5><p>不包含在任何候选码中的属性被称为非主属性。</p>
-<h5 id="关系模式"><a href="#关系模式" class="headerlink" title="关系模式"></a>关系模式</h5><p>形象化地表示为R(U,D,dom,F)<br>R：关系名<br>U：组成该关系的属性名集合<br>D：属性组U中属性所来自的域<br>DOM：属性向域的映象集合<br>F：属性间数据的依赖关系集合</p>
-<h4 id="关系模型完整性"><a href="#关系模型完整性" class="headerlink" title="关系模型完整性"></a>关系模型完整性</h4><h5 id="实体完整性"><a href="#实体完整性" class="headerlink" title="实体完整性"></a>实体完整性</h5><p>是指关系的主关键字不能重复也不能取空值。</p>
-<h5 id="参照完整性"><a href="#参照完整性" class="headerlink" title="参照完整性"></a>参照完整性</h5><p>是指定义建立关系之间联系的主关键字与外部关键字引用的约束条件。</p>
-<h5 id="用户定义完整性"><a href="#用户定义完整性" class="headerlink" title="用户定义完整性"></a>用户定义完整性</h5><p>是指根据应用环境的要求和实际的需要，对某一具体应用所涉及的数据提出约束性条件。</p>
-<h4 id="关系操作"><a href="#关系操作" class="headerlink" title="关系操作"></a>关系操作</h4><p>包括查询(Query)操作和插入(Insert)、删除(Delete)、修改(Update)操作两大部分。</p>
-<h3 id="关系代数"><a href="#关系代数" class="headerlink" title="关系代数"></a>关系代数</h3><p>是一种形式化的查询语言</p>
-<h4 id="传统的集合运算"><a href="#传统的集合运算" class="headerlink" title="传统的集合运算"></a>传统的集合运算</h4><p>包括并、差、交和广义笛卡尔积四种运算。</p>
-<h4 id="专门的关系运算"><a href="#专门的关系运算" class="headerlink" title="专门的关系运算"></a>专门的关系运算</h4><p>包含选择、投影、连接和除等。</p>
 ]]></content>
   </entry>
   <entry>
@@ -273,6 +189,90 @@ MongoDB(文档型)、Redis(键值型)、Cassandra(列存储型)、Neo4j(图型)�
 <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">mvn site</span><br></pre></td></tr></table></figure>
 <p>为项目生成站点文档并发布到远程服务器</p>
 <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">mvn site<span class="literal">-deploy</span></span><br></pre></td></tr></table></figure>
+]]></content>
+  </entry>
+  <entry>
+    <title>数据库概论</title>
+    <url>/posts/bef137fa/</url>
+    <content><![CDATA[<p><strong>推荐教材</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">数据库系统概论 第5版</span><br><span class="line">王珊 / 萨师煊 高等教育出版社</span><br><span class="line"></span><br><span class="line">数据库系统概念 原书第6版</span><br><span class="line">Abraham Silberschatz / Henry F. Korth / S. Sudarshan 机械工业出版社</span><br></pre></td></tr></table></figure>
+
+<h1 id="数据库概论"><a href="#数据库概论" class="headerlink" title="数据库概论"></a>数据库概论</h1><h2 id="绪论"><a href="#绪论" class="headerlink" title="绪论"></a>绪论</h2><h3 id="数据"><a href="#数据" class="headerlink" title="数据"></a>数据</h3><h4 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h4><p>Data<br>数据是描述事物的符号记录，是数据库中存储的基本对象。数据与其语义是密不可分的。</p>
+<h5 id="表现形式"><a href="#表现形式" class="headerlink" title="表现形式"></a>表现形式</h5><p>其表现形式可以是数字(number)、文字(text)、图表(graph)、图像(image)、音频(audio)、视频(video)等。[文图声像]</p>
+<h3 id="数据模型"><a href="#数据模型" class="headerlink" title="数据模型"></a>数据模型</h3><h4 id="概念-1"><a href="#概念-1" class="headerlink" title="概念"></a>概念</h4><p>数据模型是对现实世界数据特征的模拟和抽象表达，是模型化数据和信息的工具，是数据库系统的核心和基础。</p>
+<h4 id="组成三要素"><a href="#组成三要素" class="headerlink" title="组成三要素"></a>组成三要素</h4><h5 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h5><p>是对系统静态特性的描述，描述数据库的组成对象以及对象之间的联系。</p>
+<h5 id="数据操作"><a href="#数据操作" class="headerlink" title="数据操作"></a>数据操作</h5><p>是对系统动态特性的描述，描述在相应的数据结构上的操作类型和操作方式。<br>数据操作主要包括对数据库的检索和更新两大类操作，其中更新操作又包括插入、删除和修改等。数据模型必须定义这些操作的确切含义、操作符号、操作规则（如优先级）以及实现操作的语言。</p>
+<h5 id="数据约束"><a href="#数据约束" class="headerlink" title="数据约束"></a>数据约束</h5><p>既刻画数据静态特征，也表示数据动态行为规则，描述数据结构内数据间的语法和语义关联、它们之间的制约和依存关系，以及数据动态变化规则，以保证数据的正确、有效和相容。数据约束包括数据完整性约束、数据安全性约束以及并发控制性约束。</p>
+<h4 id="二分类"><a href="#二分类" class="headerlink" title="二分类"></a>二分类</h4><h5 id="概念层数据模型"><a href="#概念层数据模型" class="headerlink" title="概念层数据模型"></a>概念层数据模型</h5><h6 id="概念-2"><a href="#概念-2" class="headerlink" title="概念"></a>概念</h6><p>也称信息模型，数据抽象的最高层，是以用户视角对数据建模，用于数据库设计。</p>
+<h6 id="主要表示方法"><a href="#主要表示方法" class="headerlink" title="主要表示方法"></a>主要表示方法</h6><p>实体-联系图，也称E-R图，用于描述现实世界中实体及其属性，以及实体之间联系。<br>实体用矩形表示，矩形框内写明实体的名称。<br>属性用椭圆形表示，描述实体的具体特征。<br>联系用菱形表示，描述了实体之间的关系。<br>这些关系可以是一对一、一对多或多对多等。</p>
+<h5 id="组织层数据模型"><a href="#组织层数据模型" class="headerlink" title="组织层数据模型"></a>组织层数据模型</h5><p>是以计算机视角对数据建模，用于数据库管理系统的实现。</p>
+<h6 id="逻辑层数据模型"><a href="#逻辑层数据模型" class="headerlink" title="逻辑层数据模型"></a>逻辑层数据模型</h6><p>数据抽象的中间层，是设计数据库系统的核心。<br>包括层次模型、网状模型、关系模型、面向对象模型、对象关系数据模型、半结构化数据模型等。<br>面向对象型数据库OODBS中的基本结构是对象而不是记录。</p>
+<h6 id="物理层数据模型"><a href="#物理层数据模型" class="headerlink" title="物理层数据模型"></a>物理层数据模型</h6><p>数据抽象的最底层，描述数据在存储介质上的组织结构，确定数据的物理存储结构，数据存取路径。</p>
+<h3 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h3><h4 id="概念-3"><a href="#概念-3" class="headerlink" title="概念"></a>概念</h4><p>DataBase，简称DB<br>    数据库顾名思义是存储数据的仓库。<br>    严格地说，数据库是长期存储在计算机中的、有组织的、可共享的大量数据的集合。</p>
+<h4 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">关系型数据库</span><br><span class="line">RD    (Relational Database)</span><br><span class="line">非关系型数据库</span><br><span class="line">NRD   (Non-Relational Database)</span><br><span class="line">NoSQL (Not Only SQL)				译为&quot;不仅仅是SQL&quot;</span><br></pre></td></tr></table></figure>
+
+<h3 id="数据库管理系统"><a href="#数据库管理系统" class="headerlink" title="数据库管理系统"></a>数据库管理系统</h3><h4 id="概念-4"><a href="#概念-4" class="headerlink" title="概念"></a>概念</h4><p>DataBase Management System，简称DBMS<br>    数据库管理系统是一种操纵和管理数据库的大型软件，用于建立、使用和维护数据库。</p>
+<h4 id="分类-1"><a href="#分类-1" class="headerlink" title="分类"></a>分类</h4><pre><code>关系型数据库管理系统
+RDBMS		(Relational Database Management System)
+非关系型数据库管理系统
+NRDBMS		(Non-Relational Database Management System)
+NoSQL DBMS	(Not Only SQL Database Management System)
+
+常见的关系型数据库管理系统有
+MySQL、Oracle、SQL Server、PostgreSQL等
+常见的非关系型数据库管理系统有
+MongoDB(文档型)、Redis(键值型)、Cassandra(列存储型)、Neo4j(图型)等
+</code></pre>
+<h4 id="排行榜"><a href="#排行榜" class="headerlink" title="排行榜"></a>排行榜</h4><p><a href="https://db-engines.com/en/ranking">DB-Engines Ranking</a></p>
+<h3 id="结构化查询语言"><a href="#结构化查询语言" class="headerlink" title="结构化查询语言"></a>结构化查询语言</h3><h4 id="概念-5"><a href="#概念-5" class="headerlink" title="概念"></a>概念</h4><p>Structured Query Language，简称SQL<br>    结构化查询语言是用于管理关系型数据库的高级的非过程化编程语言，允许用户与数据库进行交互，执行各种数据操作。几乎所有的关系型数据库管理系统都支持SQL。</p>
+<h4 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h4><pre><code>数据查询(Data Query)
+数据定义(Data Definition)
+数据操纵(Data Manipulation)
+数据控制(Data Control)
+事务控制(Transaction Control)
+······
+</code></pre>
+<h4 id="分类-2"><a href="#分类-2" class="headerlink" title="分类"></a>分类</h4><h5 id="数据查询语言"><a href="#数据查询语言" class="headerlink" title="数据查询语言"></a>数据查询语言</h5><p>Data Query Language，简称DQL<br>    数据查询语言用于从数据库中检索数据。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">SELECT</span><br><span class="line">*用于从数据库的一个或多个表中检索数据</span><br></pre></td></tr></table></figure>
+<h5 id="数据定义语言"><a href="#数据定义语言" class="headerlink" title="数据定义语言"></a>数据定义语言</h5><p>Data Definition Language，简称DDL<br>    数据定义语言用于创建、修改和删除数据库对象的结构，并不操作数据库对象中的实际数据。<br><strong>数据库对象</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">表Table</span><br><span class="line">视图View</span><br><span class="line">索引Index</span><br><span class="line">存储过程Stored Procedure</span><br><span class="line">触发器Trigger</span><br><span class="line">······</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">CREATE</span><br><span class="line">*用于创建数据库对象</span><br><span class="line">ALTER</span><br><span class="line">*用于修改已有数据库对象</span><br><span class="line">DROP</span><br><span class="line">*用于删除数据库对象</span><br><span class="line">TRUNCATE</span><br><span class="line">只用于删除表中的所有数据，但保留表结构</span><br><span class="line">相比于DELETE操作，TRUNCATE执行速度更快，且不能通过回滚操作来恢复删除的数据</span><br></pre></td></tr></table></figure>
+<h5 id="数据操纵语言"><a href="#数据操纵语言" class="headerlink" title="数据操纵语言"></a>数据操纵语言</h5><p>Data Manipulation Language，简称DML<br>    数据操纵语言用于插入、更新和删除数据库中的数据。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">INSERT</span><br><span class="line">*用于向表中插入新数据</span><br><span class="line">UPDATE</span><br><span class="line">*用于修改表中的已有数据</span><br><span class="line">DELETE</span><br><span class="line">*用于从表中删除数据</span><br></pre></td></tr></table></figure>
+<h5 id="数据控制语言"><a href="#数据控制语言" class="headerlink" title="数据控制语言"></a>数据控制语言</h5><p>Data Control Language，简称DCL<br>    数据控制语言用于管理用户或角色对数据库对象的访问权限。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">GRANT</span><br><span class="line">*用于授予用户或角色对数据库对象的访问权限</span><br><span class="line">REVOKE</span><br><span class="line">*用于撤销用户或角色对数据库对象的访问权限</span><br></pre></td></tr></table></figure>
+<h5 id="事务控制语言"><a href="#事务控制语言" class="headerlink" title="事务控制语言"></a>事务控制语言</h5><p>Transaction Control Language，简称TCL<br>    事务控制语言用于管理数据库中事务的提交和回滚。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">BEGIN TRANSACTION</span><br><span class="line">用于明确地标记事务的开始</span><br><span class="line">COMMIT</span><br><span class="line">*用于将事务中的所有操作永久性地应用到数据库，并结束当前的事务</span><br><span class="line">ROLLBACK</span><br><span class="line">*用于撤销事务中的所有已执行的操作，并将数据库恢复到事务开始之前的状态</span><br><span class="line">SAVEPOINT</span><br><span class="line">用于设置一个临时的标记点，以便在后续可以回滚到该点，而不是回滚整个事务</span><br><span class="line">RELEASE SAVEPOINT</span><br><span class="line">用于释放(删除)先前在当前事务中定义的保存点</span><br></pre></td></tr></table></figure>
+
+<h3 id="数据库系统"><a href="#数据库系统" class="headerlink" title="数据库系统"></a>数据库系统</h3><h4 id="概念-6"><a href="#概念-6" class="headerlink" title="概念"></a>概念</h4><p>Database System，简称DBS<br>    数据库系统是由硬件、软件、数据库、使用人员组成的。</p>
+<h4 id="四特点"><a href="#四特点" class="headerlink" title="四特点"></a>四特点</h4><p>数据结构化<br>数据共享性高、冗余度低且易扩充<br>数据独立性高<br>数据由数据库管理系统统一管理和控制</p>
+<h4 id="数据管理技术发展经历三阶段"><a href="#数据管理技术发展经历三阶段" class="headerlink" title="数据管理技术发展经历三阶段"></a>数据管理技术发展经历三阶段</h4><p>人工管理阶段<br>文件系统阶段<br>数据库系统阶段</p>
+<h4 id="二体系结构"><a href="#二体系结构" class="headerlink" title="二体系结构"></a>二体系结构</h4><h5 id="内部体系结构"><a href="#内部体系结构" class="headerlink" title="内部体系结构"></a>内部体系结构</h5><h6 id="三级模式结构"><a href="#三级模式结构" class="headerlink" title="三级模式结构"></a>三级模式结构</h6><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">外模式（也称为子模式或用户模式） 用户级   三级模式结构的最外层</span><br><span class="line">是数据库用户（包括应用程序员和最终用户）能够看见和使用的局部数据的逻辑结构和特征的描述，是数据库用户的数据视图，是数据库概念模式的子集。一个数据库可以有多个外模式。</span><br><span class="line"></span><br><span class="line">概念模式（也称为逻辑模式）      概念级   三级模式结构的中间层</span><br><span class="line">描述数据库中全体数据的逻辑结构和特征，是所有用户的公共数据视图。</span><br><span class="line"></span><br><span class="line">内模式（也称为存储模式）        物理级   三级模式结构的物理层，并不是最底层的物理层</span><br><span class="line">描述了数据的物理结构和存储方式，是数据在数据库内部的表示形式或底层描述。一个数据库只有一个内模式。</span><br></pre></td></tr></table></figure>
+
+<h6 id="二级映像"><a href="#二级映像" class="headerlink" title="二级映像"></a>二级映像</h6><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">外模式/模式的映像：实现外模式到模式的相互转换。保证了数据的逻辑独立性</span><br><span class="line">模式/内模式的映像：实现模式到内模式的相互转换。保证了数据的物理独立性</span><br></pre></td></tr></table></figure>
+
+<h5 id="外部体系结构"><a href="#外部体系结构" class="headerlink" title="外部体系结构"></a>外部体系结构</h5><h6 id="单用户结构"><a href="#单用户结构" class="headerlink" title="单用户结构"></a>单用户结构</h6><p>整个数据库系统都安装在一台计算机上，并由一个用户独占使用，不同机器之间不能共享数据。</p>
+<h6 id="主从式结构（也称为集中式结构）"><a href="#主从式结构（也称为集中式结构）" class="headerlink" title="主从式结构（也称为集中式结构）"></a>主从式结构（也称为集中式结构）</h6><p>一个主机带多个终端用户。</p>
+<h6 id="分布式结构"><a href="#分布式结构" class="headerlink" title="分布式结构"></a>分布式结构</h6><p>数据库中的数据在逻辑上是一个整体，但物理地分布在计算机网络的不同结点上。</p>
+<h6 id="客户机-服务器（C-S）结构"><a href="#客户机-服务器（C-S）结构" class="headerlink" title="客户机&#x2F;服务器（C&#x2F;S）结构"></a>客户机&#x2F;服务器（C&#x2F;S）结构</h6><h6 id="浏览器-服务器（B-S）结构"><a href="#浏览器-服务器（B-S）结构" class="headerlink" title="浏览器&#x2F;服务器（B&#x2F;S）结构"></a>浏览器&#x2F;服务器（B&#x2F;S）结构</h6><h2 id="关系数据库"><a href="#关系数据库" class="headerlink" title="关系数据库"></a>关系数据库</h2><h3 id="关系数据模型"><a href="#关系数据模型" class="headerlink" title="关系数据模型"></a>关系数据模型</h3><h4 id="概念-7"><a href="#概念-7" class="headerlink" title="概念"></a>概念</h4><p>在关系结构的数据库中用二维表格的形式表示实体以及实体之间的联系的模型</p>
+<h4 id="关系数据结构"><a href="#关系数据结构" class="headerlink" title="关系数据结构"></a>关系数据结构</h4><h5 id="实体"><a href="#实体" class="headerlink" title="实体"></a>实体</h5><p>实体是客观存在且具有公共性质的可相互区别的现实世界对象的集合。</p>
+<h5 id="属性"><a href="#属性" class="headerlink" title="属性"></a>属性</h5><p>属性是实体所具有的某一特征或性质。</p>
+<h5 id="域"><a href="#域" class="headerlink" title="域"></a>域</h5><p>域是一组具有相同数据类型的值的集合，是属性的取值范围。</p>
+<h5 id="元组"><a href="#元组" class="headerlink" title="元组"></a>元组</h5><p>元组用于表示关系中的单行记录或实体。</p>
+<h5 id="笛卡尔积"><a href="#笛卡尔积" class="headerlink" title="笛卡尔积"></a>笛卡尔积</h5><p>笛卡尔积可表示为一个二维表。表中的每行对应一个元组，表中的每列对应一个域。</p>
+<h5 id="关系"><a href="#关系" class="headerlink" title="关系"></a>关系</h5><p>关系是由多个域组成的笛卡尔积的有限子集。<br>笛卡尔积不满足交换律,<br>(d1,d2,···,dn)!&#x3D;(d2,d1,···,dn)<br>但关系满足交换律。<br>(d1,d2,···,dn)&#x3D;(d2,d1,···,dn)</p>
+<h5 id="候选码"><a href="#候选码" class="headerlink" title="候选码"></a>候选码</h5><p>关系中的某个属性组的值能够唯一地标识一个元组，而其子集不能，该属性组被称为候选码。一个关系可以有多个候选码。</p>
+<h5 id="主码（也称为主键）"><a href="#主码（也称为主键）" class="headerlink" title="主码（也称为主键）"></a>主码（也称为主键）</h5><p>主码由候选码中选定，每个关系有且仅有一个主码。       </p>
+<h5 id="主属性"><a href="#主属性" class="headerlink" title="主属性"></a>主属性</h5><p>候选码中的属性被称为主属性。</p>
+<h5 id="非主属性（也称为非码属性）"><a href="#非主属性（也称为非码属性）" class="headerlink" title="非主属性（也称为非码属性）"></a>非主属性（也称为非码属性）</h5><p>不包含在任何候选码中的属性被称为非主属性。</p>
+<h5 id="关系模式"><a href="#关系模式" class="headerlink" title="关系模式"></a>关系模式</h5><p>形象化地表示为R(U,D,dom,F)<br>R：关系名<br>U：组成该关系的属性名集合<br>D：属性组U中属性所来自的域<br>DOM：属性向域的映象集合<br>F：属性间数据的依赖关系集合</p>
+<h4 id="关系模型完整性"><a href="#关系模型完整性" class="headerlink" title="关系模型完整性"></a>关系模型完整性</h4><h5 id="实体完整性"><a href="#实体完整性" class="headerlink" title="实体完整性"></a>实体完整性</h5><p>是指关系的主关键字不能重复也不能取空值。</p>
+<h5 id="参照完整性"><a href="#参照完整性" class="headerlink" title="参照完整性"></a>参照完整性</h5><p>是指定义建立关系之间联系的主关键字与外部关键字引用的约束条件。</p>
+<h5 id="用户定义完整性"><a href="#用户定义完整性" class="headerlink" title="用户定义完整性"></a>用户定义完整性</h5><p>是指根据应用环境的要求和实际的需要，对某一具体应用所涉及的数据提出约束性条件。</p>
+<h4 id="关系操作"><a href="#关系操作" class="headerlink" title="关系操作"></a>关系操作</h4><p>包括查询(Query)操作和插入(Insert)、删除(Delete)、修改(Update)操作两大部分。</p>
+<h3 id="关系代数"><a href="#关系代数" class="headerlink" title="关系代数"></a>关系代数</h3><p>是一种形式化的查询语言</p>
+<h4 id="传统的集合运算"><a href="#传统的集合运算" class="headerlink" title="传统的集合运算"></a>传统的集合运算</h4><p>包括并、差、交和广义笛卡尔积四种运算。</p>
+<h4 id="专门的关系运算"><a href="#专门的关系运算" class="headerlink" title="专门的关系运算"></a>专门的关系运算</h4><p>包含选择、投影、连接和除等。</p>
 ]]></content>
   </entry>
 </search>
